@@ -1,0 +1,11 @@
+[package]
+name = "janggab-setup"
+version = "0.1.0"
+authors = ["boggle200 <myminjea@gmail.com>"]
+edition = "2024"
+description = "THis is janggab setup"
+license = "Apache-2.0"
+
+[dependencies]
+encoding_rs = "0.8.35"
+regex = "1.11.1"

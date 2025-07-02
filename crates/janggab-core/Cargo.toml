@@ -1,0 +1,18 @@
+[package]
+name = "janggab-core"
+version = "0.1.0"
+authors = ["boggle200 <myminjea@gmail.com>"]
+edition = "2024"
+description = "THis is janggab core"
+license = "Apache-2.0"
+
+[dependencies]
+anyhow = "1.0.98"
+bincode = "2.0.1"
+chrono = "0.4.41"
+encoding_rs = "0.8.35"
+image = "0.25.6"
+opencv = { version = "0.95.0", default-features = false, features = ["imgproc", "highgui", "videoio"] }
+serde.workspace = true
+serde_json.workspace = true
+socket2 = "0.5.10"

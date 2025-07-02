@@ -1,0 +1,8 @@
+[package]
+name = "howtodo-setup"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+janggab-setup = { version = "0.1.0", path = "../../crates/janggab-setup" }
+
