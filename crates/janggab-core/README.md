@@ -5,7 +5,3 @@ at now, only working windows <- wsl is get_webcam one.
 and get_mic still need more time to make better mic share system
 
 
-
-
-notice!
-because of some matter, still i need more time to make glove to udp for better working.

@@ -7,6 +7,6 @@ const TARGET_WIDTH: usize = 320;
 const TARGET_HEIGHT: usize = 240;
 
 fn main() {
-    //let a = glove_core::get_webcam::udp::server::server_main();
-    let _ = janggab::webcam::Wsl::new(TARGET_WIDTH, TARGET_HEIGHT);
+    let a = janggab::webcam::Wsl::new(320, 240);
+    println!("{:?}", a);
 }

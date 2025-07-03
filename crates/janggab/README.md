@@ -7,5 +7,6 @@ and get_mic still need more time to make better mic share system
 
 
 
-notice!
-because of some matter, still i need more time to make udp for better working of glove.
+patch note:
+now, our janggab can return your webcan data.
+it would be better for get more exact data!

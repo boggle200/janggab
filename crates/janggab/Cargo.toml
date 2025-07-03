@@ -1,11 +1,12 @@
 [package]
 name = "janggab"
-version = "0.1.0"
+version = "0.2.1"
 authors = ["boggle200 <myminjea@gmail.com>"]
+repository.workspace = true
 edition = "2024"
 description = "THis is janggab"
 license = "Apache-2.0"
 
 [dependencies]
-janggab-core = { path = "../janggab-core", version = "0.1.0"}
+janggab-core = { path = "../janggab-core", version = "0.2.0"}
 encoding_rs = "0.8.35"

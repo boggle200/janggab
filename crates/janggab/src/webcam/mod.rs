@@ -9,7 +9,8 @@ impl Windows {
 }
 
 impl Wsl {
-    pub fn new(width: usize, height: usize) {
-        janggab_core::get_webcam::udp::server::server_main(width, height).unwrap();
+    pub fn new(width: usize, height: usize) -> Vec<u8> {
+        let jgb_full_data = janggab_core::get_webcam::udp::server::server_main(width, height).unwrap();
+        jgb_full_data
     }
 }

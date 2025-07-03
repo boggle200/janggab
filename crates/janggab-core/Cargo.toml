@@ -1,7 +1,8 @@
 [package]
 name = "janggab-core"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["boggle200 <myminjea@gmail.com>"]
+repository.workspace = true
 edition = "2024"
 description = "THis is janggab core"
 license = "Apache-2.0"
