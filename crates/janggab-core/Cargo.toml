@@ -1,6 +1,6 @@
 [package]
 name = "janggab-core"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["boggle200 <myminjea@gmail.com>"]
 repository.workspace = true
 edition = "2024"
@@ -11,6 +11,7 @@ license = "Apache-2.0"
 anyhow = "1.0.98"
 bincode = "2.0.1"
 chrono = "0.4.41"
+cpal = "0.16.0"
 encoding_rs = "0.8.35"
 image = "0.25.6"
 opencv = { version = "0.95.0", default-features = false, features = ["imgproc", "highgui", "videoio"] }

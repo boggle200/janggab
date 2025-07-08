@@ -6,7 +6,7 @@ use std::thread;
 pub fn client_main() {
     // 서버 IP 입력 (예: "172.20.240.1" for WSL)
     // Enter server IP (e.g., "172.20.240.1" for WSL)
-    let server_ip = "172.31.148.114:52525";
+    let server_ip = "your_ip";
 
     let socket = UdpSocket::bind("0.0.0.0:0").expect("소켓 바인딩 실패"); // Failed to bind socket
     socket.set_read_timeout(Some(Duration::from_secs(1))).unwrap();
